@@ -1,0 +1,109 @@
+p {
+  color: #b3b3b3;
+  font-weight: 300;
+}
+
+.content {
+  padding: 7rem 0;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+}
+
+.content .contents .form-group input {
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+}
+.content .contents .form-group.first {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.content .contents .form-group.last {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.content .contents .form-group.field--not-empty label {
+  margin-top: -25px;
+}
+.content .contents .form-control {
+  border: none;
+  padding: 15px 0;
+  font-size: 20px;
+  border-radius: 0;
+}
+.content .contents .form-control:active,
+.content .contents .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.content .btn {
+  height: 54px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 761px) {
+  .content {
+    padding: 7rem 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    /* align-items: center; */
+  }
+}
+
+.contents {
+  align-self: center;
+}
+
+.error {
+  border-bottom: 1px solid red !important;
+}
+
+
+
+
+/*.background-radial-gradient {*/
+/*  background-color: hsl(218, 41%, 15%);*/
+/*  background-image: radial-gradient(650px circle at 0% 0%,*/
+/*  hsl(218, 41%, 35%) 15%,*/
+/*  hsl(218, 41%, 30%) 35%,*/
+/*  hsl(218, 41%, 20%) 75%,*/
+/*  hsl(218, 41%, 19%) 80%,*/
+/*  transparent 100%),*/
+/*  radial-gradient(1250px circle at 100% 100%,*/
+/*          hsl(218, 41%, 45%) 15%,*/
+/*          hsl(218, 41%, 30%) 35%,*/
+/*          hsl(218, 41%, 20%) 75%,*/
+/*          hsl(218, 41%, 19%) 80%,*/
+/*          transparent 100%);*/
+/*}*/
+
+/*#radius-shape-1 {*/
+/*  height: 220px;*/
+/*  width: 220px;*/
+/*  top: -60px;*/
+/*  left: -130px;*/
+/*  background: radial-gradient(#44006b, #ad1fff);*/
+/*  overflow: hidden;*/
+/*}*/
+
+/*#radius-shape-2 {*/
+/*  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;*/
+/*  bottom: -60px;*/
+/*  right: -110px;*/
+/*  width: 300px;*/
+/*  height: 300px;*/
+/*  background: radial-gradient(#44006b, #ad1fff);*/
+/*  overflow: hidden;*/
+/*}*/
+
+/*.bg-glass {*/
+/*  background-color: hsla(0, 0%, 100%, 0.9) !important;*/
+/*  backdrop-filter: saturate(200%) blur(25px);*/
+/*}*/
