@@ -8,7 +8,7 @@ function Footer() {
 
   return (
     // <footer className="  text-center text-lg-start mt-5 fixed-btm">
-        <footer className="footer bg-dark text-white vw-100 position-fixed">
+        <footer className="footer bg-dark text-white vw-100">
             <div className="footer-content">
                 <h5>Crime Reporting System</h5>
                 <p>Report any incident with ease</p>

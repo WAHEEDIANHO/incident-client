@@ -58,7 +58,7 @@ function Login({ api, setUser }) {
       <>
         <GNavBar />
        {/*Section: Design Block -->*/}
-        <section className="background-radial-gradient overflow-hidden vh-100"
+        <section className="background-radial-gradient"
           style={{
             backgroundImage: "url('https://bit.ly/3XF2Z1x')",
             backgroundRepeat: "no-repeat",
@@ -66,7 +66,7 @@ function Login({ api, setUser }) {
             backgroundSize: "cover"
         }}
         >
-          <div className="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+          <div className="container px-4 py-5 px-md-5 text-center text-lg-start">
             <div className="row gx-lg-5 align-items-center mb-5">
               <div className="col-lg-6 mb-5 mb-lg-0" style={{zIndex: 10}}>
                 <h1 className="my-5 display-5 fw-bold ls-tight" style={{color: "hsl(218, 81%, 95%)"}}>

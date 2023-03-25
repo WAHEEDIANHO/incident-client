@@ -295,11 +295,11 @@ body {
 }
 
 .footer {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     grid-template-columns: 30% 30% 30%;
     color: #ffffff;
-    bottom: 0;
+    /*bottom: 0;*/
 }
 
 .footer .social {
@@ -333,6 +333,10 @@ body {
     h1.nav__logo {
         text-align: center;
     }
+}
+
+section {
+    min-height: 100vh;
 }
 
 

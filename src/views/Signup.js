@@ -6,6 +6,7 @@ import Loader from "../components/Loader";
 import "../css/login.css";
 import {Link} from "react-router-dom";
 import Footer from "../components/Footer";
+import GNavBar from "../components/GNavBar";
 function AddCriminal({ title, api }) {
   const [user, setUser] = useState({});
   const [loader, setLoader] = useState(false);
@@ -56,7 +57,8 @@ function AddCriminal({ title, api }) {
   return (
     <>
       { loader && <Loader/> }
-      <section className="background-radial-gradient overflow-hidden vh-100"
+      <GNavBar />
+      <section className="background-radial-gradient"
                style={{
                  backgroundImage: "url('https://bit.ly/3XF2Z1x')",
                  backgroundRepeat: "no-repeat",
@@ -64,9 +66,22 @@ function AddCriminal({ title, api }) {
                  backgroundSize: "cover"
                }}
       >
-        <div className="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+        <div className="container px-4 py-5 px-md-5 text-center text-lg-start">
           <div className="row gx-lg-5 align-items-center mb-5">
 
+            <div className="col-lg-6 mb-5 mb-lg-0" style={{zIndex: 10}}>
+              <h1 className="my-5 display-5 fw-bold ls-tight" style={{color: "hsl(218, 81%, 95%)"}}>
+                Crime Report <br/>
+                <span style={{color: "hsl(218, 81%, 75%"}}>Management System</span>
+              </h1>
+              <p className="mb-4 opacity-70 text-white  p-3 rounded-2"
+                 style={{background: "rgba(0,0,0,0.5)"}}
+              >
+                This is a tool or process that enables individuals to report criminal incidents to
+                the appropriate authorities. Such systems can be
+                designed to operate via various channels, including phone, email, online portals, or mobile apps
+              </p>
+            </div>
             <div className="col-lg-6 mb-5 mb-lg-0 position-relative">
               <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
               <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
@@ -145,19 +160,7 @@ function AddCriminal({ title, api }) {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 mb-5 mb-lg-0" style={{zIndex: 10}}>
-              <h1 className="my-5 display-5 fw-bold ls-tight" style={{color: "hsl(218, 81%, 95%)"}}>
-                Crime Report <br/>
-                <span style={{color: "hsl(218, 81%, 75%"}}>Management System</span>
-              </h1>
-              <p className="mb-4 opacity-70 text-white  p-3 rounded-2"
-                 style={{background: "rgba(0,0,0,0.5)"}}
-              >
-                This is a tool or process that enables individuals to report criminal incidents to
-                the appropriate authorities. Such systems can be
-                designed to operate via various channels, including phone, email, online portals, or mobile apps
-              </p>
-            </div>
+
 
 
           </div>
