@@ -97,8 +97,8 @@ function Login({ api, setUser }) {
                         ) : null
                       }
                       <div className="form-outline mb-4">
-                        <input type="email" id="username" className="form-control" onChange={e => setLogin({...login, username: e.target.value})} />
-                        <label className="form-label" htmlFor="username">Email address</label>
+                        <input type="text" id="username" className="form-control" onChange={e => setLogin({...login, username: e.target.value})} />
+                        <label className="form-label" htmlFor="username">Username</label>
                       </div>
 
                         <div className="form-outline mb-4">
